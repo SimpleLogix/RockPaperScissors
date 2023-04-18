@@ -1,0 +1,60 @@
+header {
+  font-size: 32px;
+  padding-top: 25px;
+  color: darkseagreen;
+}
+
+body {
+  background-color: #232b2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #ffdb58;
+  margin: 100px 50px 10px 0px;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.text {
+  font-size: 18px;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.score-row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.score {
+  width: 300px;
+  text-align: center;
+}
+
+.win {
+  color: green;
+}
+
+.lose {
+  color: red;
+}
+
+.tie {
+  color: darkcyan;
+}
+
+.selection {
+  font-size: 16px;
+  margin-top: 32px;
+}
